@@ -1,18 +1,48 @@
 import React, { Component } from 'react';
 
+import { Grid, Cell } from 'react-mdl';
+
 class About extends Component {
   render() {
     return (
       <div>
-        <h1>About Page</h1>
-        Results-oriented Web Developer with 2+ years of experience and expertise
-        in Web Development, Object-Oriented Concepts, Algorithms and Data
-        Structures. Dedicated to build, enhance, user-friendly, and feature-rich
-        websites. Willingness and ability to grasp concepts quickly and expand
-        the present knowledge base with ease.
+        <Grid className='demo-grid-ruler'>
+          <Cell col={3}>
+            <img
+              src='images/lavender-blossom.jpg'
+              alt='Avatar'
+              style={{ width: '300px', height: '190px' }}
+            />
+          </Cell>
+
+          <Cell col={3}>
+            <img
+              src='images/lavender-blossom.jpg'
+              alt='Avatar'
+              style={{ width: '300px', height: '400px' }}
+            />
+          </Cell>
+        </Grid>
+        {/* <Grid className='demo-grid-2'>
+          <Cell row={1}>
+            <img
+              src='images/lavender-blossom.jpg'
+              alt='Avatar'
+              style={{ width: '300px', height: '400px' }}
+            />
+          </Cell>
+        </Grid> */}
       </div>
     );
   }
 }
 
 export default About;
+
+// {/* <Cell col={3}>
+// <img
+//   src='images/lavender-blossom.jpg'
+//   alt='Avatar'
+//   style={{ height: '100px' }}
+// />
+// </Cell> */}

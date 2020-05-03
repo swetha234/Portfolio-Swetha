@@ -10,75 +10,98 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{ textAlign: 'center' }}>
-              <img
-                src='https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png'
-                alt='avatar'
-                style={{ height: '200px' }}
-              />
-            </div>
-
-            <h2 style={{ paddingTop: '2em' }}>Paul Hanna</h2>
-            <h4 style={{ color: 'grey' }}>Programmer</h4>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <h2 style={{ paddingTop: '2em' }}>Hima Swetha Gutti</h2>
+            <h4 style={{ color: 'grey' }}>Full Stack Developer</h4>
+            <hr style={{ borderTop: '3px solid #6c5b7b', width: '50%' }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              Results-oriented Web Developer with 2+ years of experience and
+              expertise in Web Development, Object-Oriented Concepts, Algorithms
+              and Data Structures. Dedicated to build, enhance, user-friendly,
+              and feature-rich websites. Willingness and ability to grasp
+              concepts quickly and expand the present knowledge base with ease.
             </p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <hr style={{ borderTop: '3px solid #6c5b7b', width: '50%' }} />
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>1049, W 49th street, Norfolk, VA, 23508</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>+1 (757) 289-5997</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <p>himaswetha234@gmail.com</p>
+
+            <hr style={{ borderTop: '3px solid #6c5b7b', width: '50%' }} />
           </Cell>
           <Cell className='resume-right-col' col={8}>
             <h2>Education</h2>
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName='My University'
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              endYear={2019}
+              schoolName='Old Dominion Univeristy'
             />
 
             <Education
-              startYear={2007}
-              endYear={2009}
-              schoolName='My 2nd University'
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2013}
+              endYear={2017}
+              schoolName='Jawaharlal Nehru Technological University'
+              // schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <hr style={{ borderTop: '3px solid #6c5b7b' }} />
 
             <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName='First Job'
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              monthStart='May'
+              startYear={2017}
+              monthEnd='December'
+              endYear={2017}
+              companyName='Maples and Sh*t'
+              jobName='Front-End Developer'
+              jobDescription='Built a website using HTML, CSS, JavaScript, S3, MySQL.
+              	Conducted usability testing and improved responsiveness of the site.
+              Improved the performance of the page using Grunt which helped in minification of code to the client.
+              '
             />
 
             <Experience
-              startYear={2012}
-              endYear={2016}
-              jobName='Second Job'
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              monthStart='January'
+              startYear={2018}
+              monthEnd='May'
+              endYear={2019}
+              companyName='Old Dominion Univeristy'
+              jobName='Graduate Research assistant '
+              jobDescription='Have written test cases using Postman. 
+              Revamped websites security, minimizing hacker attacks.
+              Fixed bugs from existing websites and implemented enhancements with JavaScript, Ajax and jQuery that significantly improved web functionality and speed
+              
+              '
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <Experience
+              monthStart='June'
+              startYear={2019}
+              monthEnd='Present'
+              companyName='Old Dominion Univeristy'
+              jobName='Web Developer  '
+              jobDescription='Achieving to build, maintain a website and enhance existing software systems.
+              Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
+              Providing technical support to other web design team members as directed.
+              
+              
+              '
+            />
+            <hr style={{ borderTop: '3px solid #6c5b7b' }} />
             <h2>Skills</h2>
-            <Skills skill='javascript' progress={100} />
-            <Skills skill='HTML/CSS' progress={80} />
+            <Skills skill='JavaScript' progress={100} />
+            <Skills skill='HTML/CSS' progress={90} />
+            <Skills skill='   C++   ' progress={75} />
+            <Skills skill='Bootstrap' progress={75} />
+
+            <Skills skill='React' progress={75} />
+
+            <Skills skill='PHP' progress={75} />
             <Skills skill='NodeJS' progress={50} />
-            <Skills skill='React' progress={25} />
+            <Skills skill='Python' progress={50} />
+
+            <Skills skill='Angular' progress={25} />
           </Cell>
         </Grid>
       </div>
