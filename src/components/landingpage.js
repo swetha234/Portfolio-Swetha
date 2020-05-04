@@ -38,7 +38,7 @@ class Landing extends Component {
 
                 {/* Youtube */}
                 <a
-                  href='http://google.com'
+                  href='https://www.youtube.com/watch?v=_6zOMo_jrxU'
                   rel='noopener noreferrer'
                   target='_blank'
                 >

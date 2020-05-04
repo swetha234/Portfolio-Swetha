@@ -9,40 +9,37 @@ class About extends Component {
         <Grid className='demo-grid-ruler'>
           <Cell col={3}>
             <img
-              src='images/lavender-blossom.jpg'
+              src='images/dogmom.jpg'
               alt='Avatar'
-              style={{ width: '300px', height: '190px' }}
+              style={{ width: '410px', height: '404px' }}
+            />
+          </Cell>
+          <Cell col={3}>
+            <img
+              src='images/virgo.jpg'
+              alt='Avatar'
+              style={{ width: '340px', height: '380px' }}
+            />
+          </Cell>
+          <Cell col={3}>
+            <img
+              src='images/cooking.jpg'
+              alt='Avatar'
+              style={{ width: '317px', height: '330px' }}
             />
           </Cell>
 
-          <Cell col={3}>
+          <Cell col={2}>
             <img
-              src='images/lavender-blossom.jpg'
+              src='images/dance.jpeg'
               alt='Avatar'
-              style={{ width: '300px', height: '400px' }}
+              style={{ width: '289px', height: '305px' }}
             />
           </Cell>
         </Grid>
-        {/* <Grid className='demo-grid-2'>
-          <Cell row={1}>
-            <img
-              src='images/lavender-blossom.jpg'
-              alt='Avatar'
-              style={{ width: '300px', height: '400px' }}
-            />
-          </Cell>
-        </Grid> */}
       </div>
     );
   }
 }
 
 export default About;
-
-// {/* <Cell col={3}>
-// <img
-//   src='images/lavender-blossom.jpg'
-//   alt='Avatar'
-//   style={{ height: '100px' }}
-// />
-// </Cell> */}
