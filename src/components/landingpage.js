@@ -10,7 +10,9 @@ class Landing extends Component {
             <img src='images/swetha.png' alt='Avatar' className='swetha-img' />
 
             <div className='banner-text'>
-              <h1>Web Developer</h1>
+              <h1 style={{ fontFamily: 'Chalkduster', fontSize: '40px' }}>
+                Web Developer
+              </h1>
 
               <p>
                 HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express |
