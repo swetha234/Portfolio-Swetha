@@ -25,7 +25,7 @@ class Projects extends Component {
       return (
         <div className='projects-grid'>
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card className='cardStyle' shadow={5}>
             <CardTitle
               style={{
                 color: '#fff',
@@ -33,14 +33,19 @@ class Projects extends Component {
                 background: 'url(images/connector.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Connector</CardText>
+            <CardText>
+              <b> Connector</b> - MERN Stack
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/CONNECTOR'>GitHub</a>
               </Button>
 
               <Button colored>
-                <a href='#'> Live Demo</a>
+                <a href='https://fierce-taiga-15967.herokuapp.com/'>
+                  {' '}
+                  Live Demo
+                </a>
               </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
@@ -48,7 +53,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
@@ -56,7 +61,9 @@ class Projects extends Component {
                 background: 'url(images/hackernews.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Hacker News</CardText>
+            <CardText>
+              <b>Hacker News</b> - React, Redux, HTML and CSS
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/Hacker-News'>GitHub</a>
@@ -75,7 +82,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div className='projects-grid'>
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
@@ -83,7 +90,10 @@ class Projects extends Component {
                 background: 'url(images/perfumematch.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Perfume Match</CardText>
+            <CardText>
+              <b>Perfume Match</b> - Python, BeautifulSoup, Cosine Similarity,
+              Laravel
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/PerfumeMatch'>GitHub</a>
@@ -98,7 +108,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
@@ -106,7 +116,11 @@ class Projects extends Component {
                 background: 'url(images/bigmart.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Big Mart Sales Prediction</CardText>
+            <CardText>
+              {' '}
+              <b>Big Mart Sales Prediction</b> - Python, Xgboost, Decision Tree,
+              Linear Regression
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/Big-Mart-Sales-Prediction'>
@@ -121,7 +135,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*Project 3*/}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
@@ -129,7 +143,9 @@ class Projects extends Component {
                 background: 'url(images/ai.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Big Mart Sales Prediction</CardText>
+            <CardText>
+              <b> Travelling Santa Sleigh</b> - Python, Genetic Algorithm
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/AI-Travelling-Santa-Problem'>
@@ -148,7 +164,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div className='projects-grid'>
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
@@ -156,7 +172,10 @@ class Projects extends Component {
                 background: 'url(images/petfiner.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Pet Finder</CardText>
+            <CardText>
+              <b>Pet Finder</b> - PHP, MySQL, HTML, CSS, JavaScript, Ajax,
+              jQuery, Apache Server.
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/webproject'>GitHub</a>
@@ -171,14 +190,17 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
                 height: '176px'
               }}
             ></CardTitle>
-            <CardText>Pine Valley Furniture Company using MySQL</CardText>
+            <CardText>
+              <b>Pine Valley Furniture Company</b> - MySQL (Normalizations,
+              creating tables, queries)
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/Pine-valley-furniture-DBMS'>
@@ -190,7 +212,7 @@ class Projects extends Component {
               <IconButton name='share' />
             </CardMenu>
           </Card>
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} className='cardStyle'>
             <CardTitle
               style={{
                 color: '#fff',
@@ -198,7 +220,9 @@ class Projects extends Component {
                 background: 'url(images/mathgame.jpg) center / cover'
               }}
             ></CardTitle>
-            <CardText>Math Game</CardText>
+            <CardText>
+              <b>Math Game</b> - JavaScript, HTML, CSS
+            </CardText>
             <CardActions border>
               <Button colored>
                 <a href='https://github.com/swetha234/Mathsgame'>GitHub</a>

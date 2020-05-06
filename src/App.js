@@ -19,8 +19,8 @@ class App extends Component {
                 style={{
                   textDecoration: 'none',
                   color: 'white',
-                  fontFamily: 'Chalkduster',
-                  fontSize: '18px'
+                  fontFamily: 'LTC Bodoni 175',
+                  fontSize: '17px'
                 }}
                 className='btn btn-5'
                 href='/'
@@ -33,28 +33,28 @@ class App extends Component {
             <Navigation>
               <a
                 href='/resume'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
                 className='btn btn-5'
               >
                 Resume
               </a>
               <a
                 href='/aboutme'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
                 className='btn btn-5'
               >
                 About Me
               </a>
               <a
                 href='/projects'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
                 className='btn btn-5'
               >
                 Projects
               </a>
               <a
                 href='/contact'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
                 className='btn btn-5'
               >
                 Contact
@@ -67,7 +67,7 @@ class App extends Component {
                 style={{
                   textDecoration: 'none',
                   color: 'black',
-                  fontFamily: 'Chalkduster',
+                  fontFamily: 'LTC Bodoni 175',
                   fontSize: '17px'
                 }}
                 href='/'
@@ -80,25 +80,25 @@ class App extends Component {
               <a
                 href='resume'
                 class='btn btn-5'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
               >
                 Resume
               </a>
               <a
                 href='/aboutme'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
               >
                 About Me
               </a>
               <a
                 href='/projects'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
               >
                 Projects
               </a>
               <a
                 href='/contact'
-                style={{ fontFamily: 'Chalkduster', fontSize: '17px' }}
+                style={{ fontFamily: 'LTC Bodoni 175', fontSize: '17px' }}
               >
                 Contact
               </a>

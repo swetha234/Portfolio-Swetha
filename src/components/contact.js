@@ -6,15 +6,8 @@ class Contact extends Component {
     return (
       <div className='landing-grid'>
         <Grid className='contact-grid'>
-          <Cell col={6}>
-            <h2>Hima Swetha Gutti</h2>
-            <img src='images/swetha.png' alt='Avatar' className='swetha-img' />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              Here are my details. Feel free to contact me...!
-            </p>
-          </Cell>
-          <Cell col={6}>
-            <h2>Contact Me</h2>
+          <Cell col={7}>
+            <h2 style={{ marginTop: '20k%' }}>Contact Me</h2>
             <hr />
 
             <div className='contact-list'>
@@ -23,7 +16,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{
                       fontSize: '25px',
-                      fontFamily: 'Chalkduster',
+                      fontFamily: 'LTC Bodoni 175',
                       color: 'white'
                     }}
                   >
@@ -36,7 +29,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{
                       fontSize: '25px',
-                      fontFamily: 'Chalkduster',
+                      fontFamily: 'LTC Bodoni 175',
                       color: 'white'
                     }}
                   >
@@ -49,7 +42,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{
                       fontSize: '25px',
-                      fontFamily: 'Chalkduster',
+                      fontFamily: 'LTC Bodoni 175',
                       color: 'white'
                     }}
                   >
@@ -59,7 +52,9 @@ class Contact extends Component {
                 </ListItem>
               </List>
             </div>
+            {/* <img src='images/connect.jpg' alt='Avatar' /> */}
           </Cell>
+          <Cell col={6}></Cell>
         </Grid>
       </div>
     );

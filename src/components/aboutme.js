@@ -38,19 +38,23 @@ class About extends Component {
               <img src='images/ocd.jpg' alt='Avatar' />
             </Cell>
             <Cell col={6}>
-              <img src='images/cooking.jpg' alt='Avatar' />
+              <img src='images/yoga.png' alt='Avatar' />
             </Cell>
           </Grid>
         </div>
         <div className='right-half' style={{}}>
-          <h3 style={{ fontFamily: 'Chalkduster' }}> Hello, I'm Swetha....!</h3>
-          <p style={{ fontFamily: 'Chalkduster' }}>
-            I am a passionate User Experience and User Interface Designer You
-            have an idea, you need someone to bring it to life. Or you already
+          <h3 style={{ fontFamily: 'LTC Bodoni 175' }}>
+            {' '}
+            Hello, I'm Swetha....!
+          </h3>
+          <br></br>
+          <p style={{ fontFamily: 'LTC Bodoni 175' }}>
+            I am a passionate User Experience and User Interface Designer. You
+            have an idea, you need someone to bring it to life or you already
             have a product that needs to be refined to meet the demand of 2020
-            users!. This is where i come in! With my knowledge and creativity, I
-            can take your idea and your product to the next level. Let's have a
-            chat and discuss your idea!
+            users! Now, this is where I come in! With the knowledge and
+            creativity I ganied till now, I can take your ideas and your
+            products to next level. Let's have a chat and discuss your idea!
           </p>
         </div>
       </div>
