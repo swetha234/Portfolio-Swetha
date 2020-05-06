@@ -70,7 +70,10 @@ class Projects extends Component {
 							</Button>
 
 							<Button colored>
-								<a href='#'> Live Demo</a>
+								<a href='https://master.d2x898dxw2vl7y.amplifyapp.com/'>
+									{' '}
+									Live Demo
+								</a>
 							</Button>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
