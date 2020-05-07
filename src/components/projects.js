@@ -101,8 +101,6 @@ class Projects extends Component {
 							<Button colored>
 								<a href='https://github.com/swetha234/PerfumeMatch'>GitHub</a>
 							</Button>
-
-							<Button colored></Button>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
 							<IconButton name='share' />
