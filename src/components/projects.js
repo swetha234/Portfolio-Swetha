@@ -183,7 +183,7 @@ class Projects extends Component {
 							</Button>
 
 							<Button colored>
-								<a href='http://ec2-18-189-89-138.us-east-2.compute.amazonaws.com/webproject/index.php'>
+								<a href='http://ec2-18-189-89-138.us-east-2.compute.amazonaws.com/webproject/'>
 									{' '}
 									Live Demo
 								</a>
