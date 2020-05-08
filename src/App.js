@@ -5,7 +5,6 @@ import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import 'font-awesome/css/font-awesome.min.css';
 import Main from './components/main';
 // import { Link } from 'react-router-dom';
-import { BrowserRouter as Link } from 'react-router-dom';
 
 class App extends Component {
 	render() {
