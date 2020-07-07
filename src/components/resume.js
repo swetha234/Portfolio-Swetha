@@ -50,19 +50,6 @@ class Resume extends Component {
 						<h2>Experience</h2>
 
 						<Experience
-							monthStart='May'
-							startYear={2017}
-							monthEnd='December'
-							endYear={2017}
-							companyName='Maples and Sh*t'
-							jobName='Front-End Developer'
-							jobDescription='Built a website using HTML, CSS, JavaScript, S3, MySQL.
-              	Conducted usability testing and improved responsiveness of the site.
-              Improved the performance of the page using Grunt which helped in minification of code to the client.
-              '
-						/>
-
-						<Experience
 							monthStart='January'
 							startYear={2018}
 							monthEnd='May'
@@ -76,11 +63,11 @@ class Resume extends Component {
               '
 						/>
 						<Experience
-							monthStart='June'
-							startYear={2019}
+							monthStart='Jan'
+							startYear={2020}
 							monthEnd='Present'
 							companyName='Old Dominion Univeristy'
-							jobName='Web Developer  '
+							jobName=' Graduate Web Developer  '
 							jobDescription='Achieving to build, maintain a website and enhance existing software systems.
               Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
               Providing technical support to other web design team members as directed.
