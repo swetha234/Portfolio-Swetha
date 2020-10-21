@@ -50,6 +50,33 @@ class Resume extends Component {
 						<h2>Experience</h2>
 
 						<Experience
+							monthStart='July'
+							startYear={2020}
+							monthEnd='Present'
+							companyName='Hatfield Media'
+							jobName='Frontend Developer  '
+							jobDescription='Responsible for building websites, making sure the features are built
+									according to the scope, referring to the mockups for aesthetics, and
+									following the standards for the selected framework and infrastructure.
+              Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
+              Providing technical support to other web design team members as directed.
+              
+              
+              '
+						/>
+
+<Experience
+							monthStart='Jan'
+							startYear={2020}
+							monthEnd='June'
+							endYear={2020}
+							companyName='Old Dominion Univeristy'
+							jobName=' Graduate Web Developer  '
+							jobDescription='Achieving to build, maintain a website and enhance existing software systems.
+              								Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
+              								Providing technical support to other web design team members as directed.'
+						/>
+						<Experience
 							monthStart='January'
 							startYear={2018}
 							monthEnd='May'
@@ -62,19 +89,8 @@ class Resume extends Component {
               
               '
 						/>
-						<Experience
-							monthStart='Jan'
-							startYear={2020}
-							monthEnd='Present'
-							companyName='Old Dominion Univeristy'
-							jobName=' Graduate Web Developer  '
-							jobDescription='Achieving to build, maintain a website and enhance existing software systems.
-              Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
-              Providing technical support to other web design team members as directed.
-              
-              
-              '
-						/>
+						
+		      				
 						<hr style={{ borderTop: '3px solid #6c5b7b' }} />
 						<h2>Skills</h2>
 						<Skills skill='JavaScript' progress={100} />
