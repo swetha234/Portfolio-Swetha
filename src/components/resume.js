@@ -58,14 +58,11 @@ class Resume extends Component {
 							jobDescription='Responsible for building websites, making sure the features are built
 									according to the scope, referring to the mockups for aesthetics, and
 									following the standards for the selected framework and infrastructure.
-              Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
-              Providing technical support to other web design team members as directed.
-              
-              
-              '
+								      Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
+								      Providing technical support to other web design team members as directed.'
 						/>
 
-<Experience
+						<Experience
 							monthStart='Jan'
 							startYear={2020}
 							monthEnd='June'
@@ -84,10 +81,8 @@ class Resume extends Component {
 							companyName='Old Dominion Univeristy'
 							jobName='Graduate Research assistant '
 							jobDescription='Have written test cases using Postman. 
-              Revamped websites security, minimizing hacker attacks.
-              Fixed bugs from existing websites and implemented enhancements with JavaScript, Ajax and jQuery that significantly improved web functionality and speed.
-              
-              '
+								      Revamped websites security, minimizing hacker attacks.
+								      Fixed bugs from existing websites and implemented enhancements with JavaScript, Ajax and jQuery that significantly improved web functionality and speed.'
 						/>
 						
 		      				
@@ -95,7 +90,7 @@ class Resume extends Component {
 						<h2>Skills</h2>
 						<Skills skill='JavaScript' progress={100} />
 						<Skills skill='HTML/CSS' progress={90} />
-						<Skills skill='   C++   ' progress={75} />
+						<Skills skill='C++ ' progress={75} />
 						<Skills skill='Bootstrap' progress={75} />
 
 						<Skills skill='React' progress={75} />
