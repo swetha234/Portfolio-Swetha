@@ -14,15 +14,11 @@ class Resume extends Component {
 						<h4 style={{ color: 'grey' }}>Full Stack Developer</h4>
 						<hr style={{ borderTop: '3px solid #6c5b7b', width: '50%' }} />
 						<p>
-							Results-oriented Web Developer with 2+ years of experience and
-							expertise in Web Development, Object-Oriented Concepts, Algorithms
-							and Data Structures. Dedicated to build, enhance, user-friendly,
-							and feature-rich websites. Willingness and ability to grasp
-							concepts quickly and expand the present knowledge base with ease.
+						Passionate Web Developer with 2+ years of experience in using JavaScript, PHP, Ajax, React.js and more. I enjoy web designing and working with HTML, CSS/SASS and UI Frameworks such as Bootstrap. Willingness and ability to grasp concepts quickly and expand the present knowledge base with ease.
 						</p>
 						<hr style={{ borderTop: '3px solid #6c5b7b', width: '50%' }} />
 						<h5>Address</h5>
-						<p>1049, W 49th street, Norfolk, VA, 23508</p>
+						<p>1917 Blackrailway, Apt 402, Chesapeake, VA, 23322</p>
 						<h5>Phone</h5>
 						<p>+1 (757) 289-5997</p>
 						<h5>Email</h5>
@@ -55,34 +51,27 @@ class Resume extends Component {
 							monthEnd='Present'
 							companyName='Hatfield Media'
 							jobName='Frontend Developer  '
-							jobDescription='Responsible for building websites, making sure the features are built
-									according to the scope, referring to the mockups for aesthetics, and
-									following the standards for the selected framework and infrastructure.
-								      Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
-								      Providing technical support to other web design team members as directed.'
+							jobDescription='Managed website development projects from initial design through completion, 
+							optimizing all cross browser and multi-platform compatibility from
+							the scope. Designed dynamic and browser compatible pages using jQuery, JavaScript,
+							HMTL5, CSS, Bootstrap. Ensured proper documentation and reports in all stages of product life cycle. 
+							Conducted training for clients on handling website content management
+							systems. Conducted A/B testing to identify bugs and to make UI improvements. 
+							Used terraform services to deploy the site into development.'
 						/>
 
-						<Experience
-							monthStart='Jan'
-							startYear={2020}
-							monthEnd='June'
-							endYear={2020}
-							companyName='Old Dominion Univeristy'
-							jobName=' Graduate Web Developer  '
-							jobDescription='Achieving to build, maintain a website and enhance existing software systems.
-              								Develop features as per client’s requirement using JavaScript, SQL, HTML, CSS, Git from end to end.
-              								Providing technical support to other web design team members as directed.'
-						/>
+						
 						<Experience
 							monthStart='January'
 							startYear={2018}
-							monthEnd='May'
+							monthEnd='Dec'
 							endYear={2019}
 							companyName='Old Dominion Univeristy'
-							jobName='Graduate Research assistant '
-							jobDescription='Have written test cases using Postman. 
-								      Revamped websites security, minimizing hacker attacks.
-								      Fixed bugs from existing websites and implemented enhancements with JavaScript, Ajax and jQuery that significantly improved web functionality and speed.'
+							jobName='Graduate Web Developer '
+							jobDescription='Contributed to design and development of client and 
+							server-side applications using PHP, JavaScript, YAML. Formulated and implemented 
+							improvements on cleanup processes, performance and minimizing downtime by 10%. 
+							Designed and updated HTML/CSS templates on a regular basis and as required.'
 						/>
 						
 		      				
