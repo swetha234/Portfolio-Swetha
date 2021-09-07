@@ -51,7 +51,7 @@ class About extends Component {
 					<p style={{ fontFamily: 'LTC Bodoni 175' }}>
 						I am a passionate User Experience and User Interface Designer. You
 						have an idea, you need someone to bring it to life or you already
-						have a product that needs to be refined to meet the demand of 2020
+						have a product that needs to be refined to meet the demand of 2021
 						users! Now, this is where I come in! With the knowledge and
 						creativity I ganied till now, I can take your ideas and your
 						products to next level. Let's have a chat and discuss your idea!

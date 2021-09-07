@@ -46,32 +46,61 @@ class Resume extends Component {
 						<h2>Experience</h2>
 
 						<Experience
-							monthStart='July'
+							monthStart='April'
 							startYear={2020}
 							monthEnd='Present'
 							companyName='Hatfield Media'
 							jobName='Frontend Developer  '
-							jobDescription='Managed website development projects from initial design through completion, 
-							optimizing all cross browser and multi-platform compatibility from
-							the scope. Designed dynamic and browser compatible pages using jQuery, JavaScript,
-							HMTL5, CSS, Bootstrap. Ensured proper documentation and reports in all stages of product life cycle. 
-							Conducted training for clients on handling website content management
-							systems. Conducted A/B testing to identify bugs and to make UI improvements. 
-							Used terraform services to deploy the site into development.'
+							jobDescription='
+							•   Managed website development projects from initial design through completion, optimizing all cross browser and multi-platform compatibility from the scope. 
+							•	Development expertise with custom post types, custom fields, plugins and themes for high-traffic WordPress sites.
+							•	Designed and Developed User Interactive (UI) of Web pages with the help of HTML5, HTML, CSS3, CSS, JavaScript, jQuery, Bootstrap, PHP and AJAX.
+							•	Created React for reusable components (multi-field form elements, background file uploads.
+							•	Ensured proper documentation and reports in all stages of product life cycle. 
+							•	Conducted training for clients on handling website content management systems.
+							•	Used CSS (SASS) to develop UI Components such as Accordions and Modal Windows using pure HTML 5 and CSS3.
+							•	Used terraform services to deploy the site into development. 
+							'
 						/>
 
 						
 						<Experience
 							monthStart='January'
 							startYear={2018}
-							monthEnd='Dec'
-							endYear={2019}
+							monthEnd='Apr'
+							endYear={2020}
 							companyName='Old Dominion Univeristy'
 							jobName='Graduate Web Developer '
-							jobDescription='Contributed to design and development of client and 
-							server-side applications using PHP, JavaScript, YAML. Formulated and implemented 
-							improvements on cleanup processes, performance and minimizing downtime by 10%. 
-							Designed and updated HTML/CSS templates on a regular basis and as required.'
+							jobDescription='
+							•	Re-engineered API’s by using PHP Geolocation web service API and implemented a dashboard to visually represent them using Google Visualization API. 
+							•	Formulated and implement improvements on cleanup processes, performance and minimizing downtime by 10%. 
+							•	Implemented enhancements with JavaScript, PHP, Ajax and jQuery that significantly improved web functionality and speed. 
+							•	Involved in development of front-end web applications using HTML5, CSS3, Java, React JS, JSON and Bootstrap.
+							•	Used Bootstrap library to quickly build project UIs and used ReactJS framework to associate HTML elements to models.
+							•	Developed application as Enterprise JavaScript using – Node.js, WebSocket, Jasmine, Karma, NPM, Gulp, Protractor etc.
+							•	Implemented a Node.JS server to manage authentication.
+							'
+						/>
+
+						<Experience
+							monthStart='Nov'
+							startYear={2016}
+							monthEnd='Dec'
+							endYear={2017}
+							companyName='Old Dominion Univeristy'
+							jobName='Graduate Web Developer '
+							jobDescription='
+							•	Re-engineered API’s by using PHP Geolocation web service API and implemented a dashboard to visually represent them using Google Visualization API. 
+							•	Formulated and implement improvements on cleanup processes, performance and minimizing downtime by 10%. 
+							•	Implemented enhancements with JavaScript, PHP, Ajax and jQuery that significantly improved web functionality and speed. 
+							•	Involved in development of front-end web applications using HTML5, CSS3, Java, React JS, JSON and Bootstrap.
+							•	Used Bootstrap library to quickly build project UIs and used ReactJS framework to associate HTML elements to models.
+							•	Developed application as Enterprise JavaScript using – Node.js, WebSocket, Jasmine, Karma, NPM, Gulp, Protractor etc.
+							•	Implemented a Node.JS server to manage authentication.
+							•	Designed and implementing a Node.JS based web text and voice messaging app and its cloud backend.
+							•	Utilized Modernizer extensively to build HTML5/CSS3 based page layouts that are cross-browser compatible and standards-compliant.
+							•	Performed Unit testing on ReactJS applications using tools like Karma, Jasmine and worked with Gulp tool for build automation.
+							'
 						/>
 						
 		      				
