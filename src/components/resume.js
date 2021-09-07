@@ -85,7 +85,7 @@ class Resume extends Component {
 						<Experience
 							monthStart='Nov'
 							startYear={2016}
-							monthEnd='Dec'
+							monthEnd='Oct'
 							endYear={2017}
 							companyName='Iamastudent.com	'
 							jobName='Web Developer '
