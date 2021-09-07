@@ -70,7 +70,7 @@ class Resume extends Component {
 							monthEnd='Apr'
 							endYear={2020}
 							companyName='Old Dominion Univeristy'
-							jobName='Graduate Web Developer '
+							jobName='Web Developer '
 							jobDescription='
 							•	Re-engineered API’s by using PHP Geolocation web service API and implemented a dashboard to visually represent them using Google Visualization API. 
 							•	Formulated and implement improvements on cleanup processes, performance and minimizing downtime by 10%. 
@@ -87,8 +87,8 @@ class Resume extends Component {
 							startYear={2016}
 							monthEnd='Dec'
 							endYear={2017}
-							companyName='Old Dominion Univeristy'
-							jobName='Graduate Web Developer '
+							companyName='Iamastudent.com	'
+							jobName='Web Developer '
 							jobDescription='
 							•	Re-engineered API’s by using PHP Geolocation web service API and implemented a dashboard to visually represent them using Google Visualization API. 
 							•	Formulated and implement improvements on cleanup processes, performance and minimizing downtime by 10%. 
